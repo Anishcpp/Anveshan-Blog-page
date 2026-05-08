@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+.main{
+    background-color:#FAFAFA;
+    font-family: "Google Sans Flex", sans-serif;
+    height:100vh;
+    width:100%;
+}
+
+/* .Card-Container{
+    margin-left:0.2rem;
+} */
+
+.Card-Container{
+   
+    margin-left:350px;
+}
+.card{
+    width:1300px;
+    height:440px;
+    border-radius:0.5rem;
+   
+    padding:1rem;
+   margin-bottom:1rem;
+  
+  
+   
+    
+}
+.card1{
+        width:1300px;
+        height:440px;
+        border-radius:0.5rem;
+    
+        padding:1rem;
+    margin-bottom:1rem;
+   
+}
+
+.card2{
+     width:1300px;
+    height:440px;
+    border-radius:0.5rem;
+   
+    padding:1rem;
+   margin-bottom:1rem;
+
+}
+.card-img{
+    width:500px;
+     height:300px;
+     border-radius:0.5rem;
+     margin-top:2.5rem;
+
+
+     
+}
+
+.butt{
+    margin-top:1rem;
+    display:inline-block
+}
+.date{
+    font-size:1.2rem;
+}
+
+.navi{
+     position:sticky;
+     top:0;
+     z-index:10;
+}
+
+.heading{
+   width:30rem;
+    font-size:60px;
+     margin-top:6rem;
+    margin-left:53rem; 
+    height:10rem;
+}
+
+.date{
+  top:0;
+}
+
+.title{
+    margin-top:1rem;
+}
+
+
