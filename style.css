@@ -13,6 +13,7 @@
 
 .Card-Container{
    margin:center;
+ 
    
 }
 .card1{
@@ -26,7 +27,7 @@
 
 
 .card2{
-     width:950px;
+    width:1200px;
     height:440px;
     border-radius:0.5rem;
    
@@ -162,3 +163,20 @@
     margin: 0 auto;
 }
 
+.Card-Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card1,
+.card2{
+    width: 48%;
+    min-height: 440px;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
