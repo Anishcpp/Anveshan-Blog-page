@@ -12,38 +12,27 @@
 } */
 
 .Card-Container{
+   margin:center;
+ 
    
-    margin-left:350px;
 }
-.card{
+.card1{
     width:1300px;
     height:440px;
     border-radius:0.5rem;
    
     padding:1rem;
-   margin-bottom:1rem;
-  
-  
-   
-    
-}
-.card1{
-        width:1300px;
-        height:440px;
-        border-radius:0.5rem;
-    
-        padding:1rem;
-    margin-bottom:1rem;
-   
+   margin-bottom:1rem;  
 }
 
+
 .card2{
-     width:1300px;
+    width:1200px;
     height:440px;
     border-radius:0.5rem;
    
     padding:1rem;
-   margin-bottom:1rem;
+   margin-bottom:0.5rem;
 
 }
 .card-img{
@@ -59,6 +48,11 @@
 .butt{
     margin-top:1rem;
     display:inline-block
+}
+.butt2{
+    margin-top:0.5rem;
+    display:inline-block
+   
 }
 .date{
     font-size:1.2rem;
@@ -86,4 +80,103 @@
     margin-top:1rem;
 }
 
+.descrip2{
+    margin-top:0.01px;
+}
 
+.heading{
+    text-align:center;
+    font-size:3rem;
+    font-weight:700;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    font-family:'Poppins', sans-serif;
+    color:#111827;
+    letter-spacing:1px;
+    position:relative;
+}
+
+.heading span{
+    color:#8b93ff;
+    position:relative;
+}
+
+.heading::after{
+    content:"";
+    width:120px;
+    height:5px;
+    background:linear-gradient(to right,#8b93ff,#c4b5fd);
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-15px;
+    border-radius:10px;
+}
+
+.card1{
+   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card2{
+   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card1{
+   transition: all 0.3s ease;
+}
+
+.card1:hover{
+   transform: translateY(-8px);
+   box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.read-more:hover{
+   letter-spacing:1px;
+}
+
+.blog-heading h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 900;
+}
+
+.underline {
+   width: 140px;
+    height: 5px;
+    background: #8d92ff;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.blog-heading h1 span {
+    color: #8d92ff;
+    display: block;     
+}
+
+.blog-heading {
+    text-align: center;
+    margin: 50px 0;
+      margin-bottom: 40px;
+}
+
+ .search-bar {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Card-Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card1,
+.card2{
+    width: 48%;
+    min-height: 440px;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
